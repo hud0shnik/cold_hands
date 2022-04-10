@@ -135,7 +135,6 @@ style window:
     xfill True
     yalign gui.textbox_yalign
     ysize gui.textbox_height
-
     background Image("gui/textbox.png", xalign=0.5, yalign=1.0)
 
 style namebox:
@@ -322,11 +321,6 @@ screen navigation():
             textbutton _("Главное меню") action MainMenu()
 
         textbutton _("Об игре") action ShowMenu("about")
-
-        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
-
-            ## Помощь не необходима и не относится к мобильным устройствам.
-            textbutton _("Помощь") action ShowMenu("help")
 
         if renpy.variant("pc"):
 
