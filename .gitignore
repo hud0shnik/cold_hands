@@ -1,8 +1,8 @@
-
+traceback.txt
+errors.txt
 log.txt
 
 /game/*.rpyc
-errors.txt
 /game/saves/
 /game/cache/
-traceback.txt
+/game/.old/
