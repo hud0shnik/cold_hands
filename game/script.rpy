@@ -11,6 +11,7 @@ define audio.tea0 = "sound/tea0.mp3"
 define audio.tea1 = "sound/tea1.mp3"
 define audio.keys = "sound/keys.mp3"
 define audio.door = "sound/door.mp3"
+define audio.traffic = "sound/traffic_sounds.mp3"
 
 # Переменные 
 define milkOolong = False
