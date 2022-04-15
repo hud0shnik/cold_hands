@@ -252,7 +252,6 @@ screen quick_menu():
             xalign 0.5
             yalign 1.0
 
-            textbutton _("Назад") action Rollback()
             textbutton _("История") action ShowMenu('history')
             textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Авто") action Preference("auto-forward", "toggle")
@@ -1019,10 +1018,6 @@ screen keyboard_help():
         text _("Включает режим пропуска.")
 
     hbox:
-        label _("Page Up")
-        text _("Откат назад по сюжету игры.")
-
-    hbox:
         label _("Page Down")
         text _("Откатывает предыдущее действие вперёд.")
 
@@ -1058,10 +1053,6 @@ screen mouse_help():
         text _("Вход в игровое меню.")
 
     hbox:
-        label _("Колёсико вверх\nКлик на сторону отката")
-        text _("Откат назад по сюжету игры.")
-
-    hbox:
         label _("Колёсико вниз")
         text _("Откатывает предыдущее действие вперёд.")
 
@@ -1071,10 +1062,6 @@ screen gamepad_help():
     hbox:
         label _("Правый триггер\nA/Нижняя кнопка")
         text _("Прохождение диалогов, активация интерфейса.")
-
-    hbox:
-        label _("Левый Триггер\nЛевый Бампер")
-        text _("Откат назад по сюжету игры.")
 
     hbox:
         label _("Правый бампер")
@@ -1424,7 +1411,6 @@ screen quick_menu():
             xalign 0.5
             yalign 1.0
 
-            textbutton _("Назад") action Rollback()
             textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Авто") action Preference("auto-forward", "toggle")
             textbutton _("Меню") action ShowMenu()
