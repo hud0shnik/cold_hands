@@ -2,7 +2,7 @@ traceback.txt
 errors.txt
 log.txt
 
-/game/*.rpyc
+*.rpyc
 /game/saves/
 /game/cache/
 /game/.old/
