@@ -6,6 +6,7 @@ define nv = Character(None, kind=nvl)
 
 # Музыка и звуки
 define audio.traffic = "music/traffic_sounds.mp3"
+define audio.rubik = "sound/rubik.mp3"
 define audio.initialize = "sound/initialize.mp3"
 define audio.rain = "music/rain.mp3"
 define audio.tea0 = "sound/tea0.mp3"
