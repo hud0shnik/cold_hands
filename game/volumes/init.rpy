@@ -1,7 +1,7 @@
 # Персонажи
-define D = Character('Даня', color="#72f1e7")
-define s = Character('Саша', color="#f1d372")
-define y = Character('Яна', color="#f18b72")
+define D = Character('Даня', color="#72f1e7", what_prefix="\"", what_suffix="\"")
+define s = Character('Саша', color="#f1d372", what_prefix="\"", what_suffix="\"")
+define y = Character('Яна', color="#f18b72", what_prefix="\"", what_suffix="\"")
 define nv = Character(None, kind=nvl)
 
 # Музыка и звуки
