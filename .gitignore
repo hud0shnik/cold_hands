@@ -2,10 +2,11 @@ traceback.txt
 errors.txt
 log.txt
 
-/game/volumes/points.txt
+*.rpyc
+
 /game/saves/
 /game/cache/
 /game/.old/
+/game/DEV/
 /game/tl/
 
-*.rpyc
