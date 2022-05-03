@@ -13,6 +13,9 @@
 <!-- Adobe Photoshop -->
 <a href="https://www.adobe.com/ru/products/photoshop.html" target="_blank"> 
 <img src="https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png" alt="Adobe Photoshop" width="40" height="40"/></a>
+<!-- Krita -->
+<a href="https://krita.org/" target="_blank"> 
+<img src="https://img.icons8.com/dusk/64/000000/krita.png" alt="Krita" width="40" height="40"/></a>
 <!-- Figma -->
 <a href="https://www.figma.com" target="_blank"> 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" alt="Figma" width="40" height="40"/></a>
