@@ -2,13 +2,15 @@ traceback.txt
 errors.txt
 log.txt
 
-*.rpyc
 
-/game/saves/
 /game/cache/
+/game/saves/
 /game/.old/
 /game/DEV/
 /game/tl/
+/.vscode/
 
+
+*.rpyc
 *.png~
 *.kra
