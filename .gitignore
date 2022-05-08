@@ -4,6 +4,7 @@ log.txt
 
 
 /game/cache/
+game/.vscode/
 /game/saves/
 /game/.old/
 /game/DEV/
