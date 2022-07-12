@@ -14,12 +14,12 @@ define audio.tea1 = "sound/tea1.mp3"
 define audio.keys = "sound/keys.mp3"
 define audio.door = "sound/door.mp3"
 
-# Переменные 
-define guitarPoints = 0
+# Переменные
 define milkOolong = 0
 define yanaPoints = 0
 define coldPoints = 0
 define mindPoints = 0
+define event0 = False
 
 init:
     $ left2 = Position(xalign=-1.1, yalign=1.1)
