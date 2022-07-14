@@ -20,6 +20,7 @@ define yanaPoints = 0
 define coldPoints = 0
 define mindPoints = 0
 define event0 = False
+define event1 = False
 
 init:
     $ left2 = Position(xalign=-1.1, yalign=1.1)
