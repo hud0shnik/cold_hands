@@ -2,7 +2,7 @@
 define D = Character('Даня', color="#72f1e7", what_prefix="\"", what_suffix="\"")
 define s = Character('Саша', color="#f1d372", image='sn', what_prefix="\"", what_suffix="\"")
 define y = Character('Яна', color="#f18b72", image='y', what_prefix="\"", what_suffix="\"")
-define a = Character('Аня', color="#f18b72", image='a', what_prefix="\"", what_suffix="\"")
+define a = Character('Аня', color="#e772f1", image='a', what_prefix="\"", what_suffix="\"")
 define nv = Character(None, kind=nvl)
 
 # Музыка и звуки
