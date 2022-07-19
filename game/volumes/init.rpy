@@ -27,4 +27,4 @@ define event1 = False
 
 init:
     $ left2 = Position(xalign=-1.1, yalign=1.1)
-    $ right2 = Position(xalign=1.5, yalign=1.1)
+    $ right2 = Position(xalign=1.9, yalign=1.1)
