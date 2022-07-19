@@ -27,3 +27,7 @@
 Моя первая визуальная новелла. Сильно визуала пока не намечается (в основном только из-за сюжета).
 </br></br>
 P.s. Если найдёшь в тексте опечатки, напиши мне (лучше на почту). Также буду рад пулл реквестам.
+</br>
+</br>
+
+[![License - BSD 3-Clause](https://img.shields.io/static/v1?label=License&message=BSD+3-Clause&color=%239a68af&style=for-the-badge)](/LICENSE)
